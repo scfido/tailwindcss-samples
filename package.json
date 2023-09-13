@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "author": "fuyun <scfido@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "umi": "^4.0.80"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.2.2",
+    "@umijs/plugins": "^4.0.80",
+    "tailwindcss": "^3"
+  }
+}
